@@ -1,0 +1,56 @@
+.section_counter {
+   background: #13322B;
+   width: 100%;
+   height: 280px;
+   .frame {
+      display: flex;
+      padding: 83px 255px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      color: white;
+
+      .frame1 {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 0px;
+         gap: 10px;
+         width: 330px;
+         height: 114px;
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+         }
+         
+         .p1 {
+            width: 330px;
+            height: 77px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 77px;
+            align-items: center;
+            text-align: center;
+            letter-spacing: -0.01em;
+         }
+         
+         span {
+            color: #00BF6F;
+         }
+
+         .info {
+            font-family: 'Commissioner';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 27px;
+            text-align: center;
+         }
+      }
+}
+
+
+

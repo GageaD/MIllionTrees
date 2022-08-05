@@ -1,0 +1,11 @@
+.section_map {
+   padding-top: 120px;
+   .container {
+      display: flex;
+      flex-direction: column;
+      .section_map {
+         padding-top: 50px;
+         max-width: 100%;
+      }
+   }
+}

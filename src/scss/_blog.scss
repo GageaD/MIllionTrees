@@ -1,0 +1,63 @@
+.section_blog {
+   background-color: #d6d2c4;
+   padding-bottom: 120px;
+
+   .blog_title {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      text-align: center;
+      padding-top: 120px;
+      padding-bottom: 50px;
+      letter-spacing: -0.02em;
+   }
+   .container {
+      .blog_posts {
+         display: flex;
+         flex-direction: row;
+         .blog_posts_post {
+            background-color: #FFFFFF;
+            margin: 12px;
+            border-radius: 6px;
+            .section_image {
+               margin-bottom: 7.5px;
+               // object-fit: cover;
+               img {
+                  object-fit: fill;
+               }
+            }
+            .info {
+               display: flex;
+               flex-direction: column;
+               margin: 24px 30px;
+            }
+            .section_description_posts {
+               font-family: "Commissioner";
+               font-style: normal;
+               font-weight: 400;
+               font-size: 18px;
+               line-height: 30px;
+               color: #1d252d;
+               margin: 7.5px 0px;
+            }
+            .section__paragraph_small {
+               margin-bottom: 15px;
+            }
+            .section_about_posts {
+               font-family: "Inter";
+               font-style: normal;
+               font-weight: 500;
+               font-size: 16px;
+               line-height: 19px;
+               text-align: left;
+               letter-spacing: -0.005em;
+               color: #78be20;
+               margin: 7.5px 0px;
+
+            }
+         }
+      }
+   }
+}
